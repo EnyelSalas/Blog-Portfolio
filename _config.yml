@@ -2,7 +2,7 @@ title: "Enyel's Cybersecurity Threat Hunting and Analisys Blog"
 author: "Enyel Salas"
 url: "https://github.dev/EnyelSalas/Blog-Portfolio" # root address of the site
 description: > # description of the site (multiple lines allowed)
- "Welcome to CyberGuard! I'm Enyel, your trusted companion in the realm of cybersecurity threat hunting and malware analysis. At CyberGuard, we are committed to empowering individuals and organizations with the knowledge and skills to protect their digital assets. Whether you're a tech enthusiast, a cybersecurity professional, or someone seeking practical guidance in safeguarding your online presence, CyberGuard is here to support you. Join me as we navigate through the complex world of cyber threats, explore cutting-edge techniques in threat hunting, and unravel the mysteries of malware analysis. Together, we will build a resilient defense and ensure a secure digital future. Welcome to CyberGuard, where your online protection is our top priority!"
+ " Welcome to CyberGuard! I'm Enyel, your trusted companion in the realm of cybersecurity threat hunting and malware analysis. At CyberGuard, we are committed to empowering individuals and organizations with the knowledge and skills to protect their digital assets. Whether you're a tech enthusiast, a cybersecurity professional, or someone seeking practical guidance in safeguarding your online presence, CyberGuard is here to support you. Join me as we navigate through the complex world of cyber threats, explore cutting-edge techniques in threat hunting, and unravel the mysteries of malware analysis. Together, we will build a resilient defense and ensure a secure digital future. Welcome to CyberGuard, where your online protection is our top priority!. "
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
@@ -32,10 +32,10 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: Portfolio
-    title_misc_list: Details
+    #title_projects: Portfolio
+    #title_misc_list: Details
     title_blog: Blog
-    title_old_projects: Old Projects
+    #title_old_projects: Old Projects
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
