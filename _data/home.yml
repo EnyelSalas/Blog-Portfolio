@@ -5,21 +5,21 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url:
+  #- title: website
+    #url:
 
-project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+#project_entries:
+  #- title: Project 1
+    #url: overview-post
+    #desc: This is an example project, configured in _data/home.yml
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+ # - title: Project 2
+   #url: overview-post
+    #desc: Projects are shown in card layout
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  #- title: Project 4
+    #url: overview-post
+    #desc: This project uses highlight markup, configured in _data/home.yml
+    #highlight: WIP
 
   
