@@ -1,9 +1,8 @@
-title: Moonwalk
-author: Abhinav Saxena
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
+title: Enyel's Cybersecurity Threat Hunting and Analisys Blog
+author:Enyel Salas 
+url:https://enyelsalas.github.io/Blog-Portfolio/ # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
-
+ Welcome to CyberGuard! I'm Enyel, your trusted companion in the realm of cybersecurity threat hunting and malware analysis. At CyberGuard, we are committed to empowering individuals and organizations with the knowledge and skills to protect their digital assets. Whether you're a tech enthusiast, a cybersecurity professional, or someone seeking practical guidance in safeguarding your online presence, CyberGuard is here to support you. Join me as we navigate through the complex world of cyber threats, explore cutting-edge techniques in threat hunting, and unravel the mysteries of malware analysis. Together, we will build a resilient defense and ensure a secure digital future. Welcome to CyberGuard, where your online protection is our top priority!
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
