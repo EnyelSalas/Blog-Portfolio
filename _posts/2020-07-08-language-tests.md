@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Unveiling the Gozi Infection: Detecting Gozi in an Active Directory (AD) Environment Using Wireshark.
