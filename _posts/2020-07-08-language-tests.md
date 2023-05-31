@@ -16,6 +16,3 @@ Narrative:
 For the Initial part of the investigation, I opened up the Pcap the provided Pcap on wireshark then  filtered for HTTP/TLS/TCP/DNS traffic by using the command (http.request or tls.handshake.type eq 1) and !(ssdp), I found an interesting file HTTP request and looked up the IPV4 our user  connected to (173.254.32.85),by looking it up in the Virustotal/urlhaus  database results shown in the Images below.
 
 
-<img width="1440" alt="Screen Shot 2023-05-19 at 9 26 13 AM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/b7ba7fbf-7253-453e-bf3d-8cfcef09c4f4">
-
-
