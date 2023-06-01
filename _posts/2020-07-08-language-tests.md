@@ -141,6 +141,7 @@ These URLs end in .rar, and HTTP response headers from the C2 server identify th
 
 
 Here are 3 links that provide more details, one including the mitre attack, the other 2 are articles that will help understand Gozi's history and malicous payloads.
+
 https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fsoftware%2FS0386%2FS0386-enterprise-layer.json
 
 https://0xtoxin.github.io/threat%20breakdown/Gozi-Italy-Campaign/
