@@ -110,6 +110,7 @@ ShellBot types usually offer a variety of DDoS attack features, but since PowerB
 
 <img width="475" alt="Screen Shot 2023-06-01 at 2 22 26 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/6d1b60a9-17a6-45d5-8a7b-97857759d0ca">
 
+
 In conclusion, the report highlights the importance of maintaining strong security practices to prevent unauthorized access to servers. Organizations must implement the recommended mitigation strategies to prevent such attacks. By taking these measures, organizations can protect themselves from the damaging effects of malware such as ShellBot and its variants.
 
 Researches by: 
