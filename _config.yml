@@ -5,7 +5,7 @@ url: "https://github.dev/EnyelSalas/Blog-Portfolio" # root address of the site
 description: > # description of the site (multiple lines allowed)
   Welcome to CyberGuard! I'm Enyel, your trusted companion in the realm of cybersecurity threat hunting and malware analysis. Here at CyberGuard, I am committed to empowering individuals and organizations with the knowledge and skills to protect their digital assets. Whether you're a tech enthusiast, a cybersecurity professional, or someone seeking practical guidance in safeguarding your online presence, CyberGuard is here to support you. Join me as we navigate through the complex world of cyber threats, explore cutting-edge techniques in threat hunting, and unravel the mysteries of malware analysis. Together, we will build a resilient defense and ensure a secure digital future. Welcome to CyberGuard, where your online protection is my top priority!.
 
-image: "./cyber guard's.png " # relative path to the image file
+image: "./cyber guard's.png" # relative path to the image file
 
 permalink: /:slug
 
