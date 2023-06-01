@@ -18,7 +18,7 @@ DDoS PBot v2.0 is another type of ShellBot malware that targets servers with wea
 PowerBoT (C) GohacK is another variant of ShellBot malware. This malware comes with more backdoor-like capabilities to grant reverse shell access and upload arbitrary files from the compromised host. This variant allows attackers to gain complete control over the compromised system.
 
 		 	 	 	
-Mitigations:
+<h2>Mitigations:</h2>
 
 To prevent such attacks, organizations must implement strong security practices, such as implementing strong password policies, using multi-factor authentication, regularly updating and patching systems, conducting regular network testing and vulnerability scanning, and implementing access control measures such as the principle of least privilege. It is also crucial to have a robust incident response plan in place to detect and respond to such attacks quickly. Additionally, organizations can protect themselves from 
 DDoS attacks by implementing DDoS mitigation solutions, such as firewalls, intrusion prevention systems, and content delivery networks. 
@@ -34,7 +34,7 @@ To mitigate the risks of backdoors and C2 exploiting IRC servers, it is recommen
 <img width="532" alt="Screen Shot 2023-06-01 at 12 59 47 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/4ba16d6a-559b-401e-a5d4-6fc3078e241f">
 
 
-Indicators of Compromise (IOC):
+<h2>Indicators of Compromise (IOC):</h2>
 
 File Detection– Shellbot/Perl.Generic.S1100 (2020.02.12.00)– Shellbot/Perl.Generic.S1118 (2020.02.19.07)
 
@@ -44,15 +44,16 @@ Download URLs– x-x-x[.]online/ak– 193.233.202[.]219/mperl– 193.233.202[.]2
 
 C&C URLs– 164.90.240[.]68:6667 : ak– 206.189.139[.]152:6667 : mperl– 176.123.2[.]3:6667 : niko1– 164.132.224[.]207:80 : perl– 51.195.42[.]59:8080 : bash– gsm.ftp[.]sh:1080 : test.jpg– 192.3.141[.]163:6667 : dred– 49.212.234[.]206:3303 : ff
 
-Behavior similarities:
-Rising MOVES
+<h2>Behavior similarities:</h2>
+
 bad86cb7d09ab232edd2ddf8dddb1bb4
 VirusTotal Box of Apples
 1867e1cc695e361278f52100f36feb1e
 Zenbox Linux
 2dd457b43cdd9173e3e02ecb5a947d28
 
-“LiGhT’s Modded perlbotv2” is being used by a variety of threat actors. The following commands are used in the ShellBot installation after the SSH server has been successfully logged into.
+<h2>“LiGhT’s Modded perlbotv2” </h2>
+is being used by a variety of threat actors. The following commands are used in the ShellBot installation after the SSH server has been successfully logged into.
 
 <img width="472" alt="Screen Shot 2023-06-01 at 1 50 31 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/912a9c94-b4b1-4f94-88f9-a476e1bd90a1">
 
@@ -71,7 +72,7 @@ The “LiGhT’s Modded perlbot v2” version of ShellBot offers various feature
 The available commands cover various categories. Under "flooding," there are commands specifically designed for IRC Flooding. The "irc" category consists of commands related to IRC control. For DDoS attacks, the "ddos" category offers a range of commands including TCP, UDP, HTTP, and SQL Flooding. If targeting security web pages is the objective, the "news" category provides DDoS attack commands tailored for that purpose. The "hacking" category offers a selection of attack commands such as MultiScan, Socks5, LogCleaner, Nmap, and Reverse Shell. In case of needing help, the "linuxhelp" category provides relevant assistance. There are also "extras" with additional features, presumably related to DDoS attacks. Lastly, the "version" command is available to obtain information about the system's current version.
 
 
-3.2. DDoS PBot v2.0
+<h2>3.2. DDoS PBot v2.0</h2>
 Aside from “LiGhT’s Modded perlbot v2”, “DDoS PBot v2.0” is also being used in a variety of attacks. A characteristic of “DDoS PBot v2.0” is that it shows basic information and available commands in the annotations that can be seen during its initial routine.
 
 <img width="784" alt="Screen Shot 2023-06-01 at 1 22 31 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/9ac4e293-e5e5-4f27-aab3-a7f30cf539cc">
@@ -101,7 +102,7 @@ Like regular ShellBots, “DDoS PBot v2.0” also offers a variety of malicious 
 <img width="520" alt="Screen Shot 2023-06-01 at 2 00 37 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/9a3edbff-3d1e-4a08-a2fb-855f17891f82">
 
 
-3.3. PowerBots (C) GohacK
+<h2>3.3. PowerBots (C) GohacK</h2>
 The main characteristic of PowerBots is that it has a simpler form in comparison to the ShellBot types covered above.
 
 Configuration data of PowerBots:
@@ -118,7 +119,7 @@ ShellBot types usually offer a variety of DDoS attack features, but since PowerB
 In conclusion, the report highlights the importance of maintaining strong security practices to prevent unauthorized access to servers. Organizations must implement the recommended mitigation strategies to prevent such attacks. By taking these measures, organizations can protect themselves from the damaging effects of malware such as ShellBot and its variants.
 
 Researches by: 
-Enyel Salas, Jr Analyst.
+Enyel, Jr Analyst.
 
 References:
 ASEC
