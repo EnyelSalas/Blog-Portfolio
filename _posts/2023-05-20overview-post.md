@@ -94,7 +94,8 @@ In order to do this, the IRC Bot has to perform an additional task where users t
 Configuration data of DDoS PBot v2.0
 Like regular ShellBots, “DDoS PBot v2.0” also offers a variety of malicious commands including DDoS attack commands.
 
-<img width="520" alt="Screen Shot 2023-06-01 at 2 00 37 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/9a3edbff-3d1e-4a08-a2fb-855f17891f82">
+<img width="472" alt="Screen Shot 2023-06-01 at 1 50 31 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/5cc25a96-3ce9-4788-a463-cf61a88cec37">
+
 
 
 3.3. PowerBots (C) GohacK
