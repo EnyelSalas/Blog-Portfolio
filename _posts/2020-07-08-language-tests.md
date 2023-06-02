@@ -55,13 +55,14 @@ Then again kept looking for more factual data by filtering for SMB objects extra
 1-Unzip Cliente.zip
 <img width="739" alt="Screen Shot 2023-05-31 at 7 19 00 PM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/c070339c-83d2-4cb3-bd49-2efa38d28626">
 
-2-cd Cliente 
-3-less Cliente.url
+<p>2-cd Cliente</p>
+<p>3-less Cliente.url</p>
+<p>This payload will start windows proccess from C:\Windows\sytem32\SHELL32.dll if it's allow to run.</p>
 <img width="743" alt="Screen Shot 2023-06-01 at 8 01 35 AM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/7e563360-7660-4580-a53d-c13067305b94">
 
 <img width="741" alt="Screen Shot 2023-06-01 at 8 02 06 AM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/09b4443d-7802-433c-8068-40ead8061cc0">
 
-Command: Shasum -a 256 *.* revealed hashes that let to malicious payloads ending in .exe.
+Command: Shasum -a 256 cliente.url revealed hashes that let to malicious files ending in .exe.  
 
 <img width="536" alt="Screen Shot 2023-06-01 at 8 04 42 AM" src="https://github.com/EnyelSalas/Blog-Portfolio/assets/115824437/4d0ddeb3-06c5-4ec4-ac3c-de487a59b6fa">
 
