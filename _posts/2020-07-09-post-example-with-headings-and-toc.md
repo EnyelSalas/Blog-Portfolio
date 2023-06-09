@@ -1,6 +1,6 @@
 ---
 layout: post
-title: postexample with headings and toc 
+title: post example with headings and toc 
 date: 2023-06-01
 ---
 
