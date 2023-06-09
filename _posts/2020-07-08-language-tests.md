@@ -2,6 +2,7 @@
 layout: post
 title: "Unveiling the Gozi Infection: Detecting Gozi in an Active Directory (AD) Environment Using Wireshark.
 "
+date: 2023-06-01
 ---
 
 In this blog post, we delve into the realm of Gozi infections within Active Directory (AD) environments. Specifically, we explore how Wireshark, a popular network analysis tool, can be utilized to identify and uncover the presence of Gozi within AD networks. By understanding the history and evolution of Gozi, we gain valuable insights into its behavior and techniques, equipping us with the knowledge needed to detect and mitigate this persistent threat.
